@@ -1,0 +1,27 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main] # Trigger on every push to main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Website
+        run: npm run build
+
+      # add linter or link checker here before the final deploy.
