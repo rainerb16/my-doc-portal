@@ -24,4 +24,4 @@ jobs:
       - name: Build Website
         run: npm run build
 
-      # add linter or link checker here before the final deploy.
+      # add linter or link checker here before the final deploy
