@@ -24,7 +24,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
-
+      # add a simple bash check CI pipeline
+      # - run: find ./docs -name "*.md" -mtime +180 -exec echo "WARNING: {} is over 6 months old!" \;
   deploy:
     needs: build
     runs-on: ubuntu-latest

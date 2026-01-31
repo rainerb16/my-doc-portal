@@ -4,32 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Interactive API Documentation',
+    Svg: require('@site/static/img/undraw_programming_j1zw.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       I specialize in transforming static OpenAPI/Swagger specifications into 
+        dynamic, interactive API explorers. By integrating live sandboxes, 
+        I allow developers to test endpoints directly from the documentation.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Documentation Engineering',
+    Svg: require('@site/static/img/undraw_process_0wew.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I build and maintain documentation as code using Docusaurus. 
+        This includes managing complex build pipelines, versioning, and 
+        extensible plugin architectures to ensure docs scale with the product.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Developer Experience (DX)',
+    Svg: require('@site/static/img/undraw_vibe-coding_mjme.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        My focus is on creating tools that engineers actually enjoy using. 
+        I bridge the gap between complex backend logic and clear, 
+        actionable communication to reduce developer friction.
       </>
     ),
   },
