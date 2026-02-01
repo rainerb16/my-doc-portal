@@ -13,10 +13,18 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Inventory System',
+      items: [
+        'inventory-app/overview',       
+        'inventory-app/auth-deep-dive',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Petstore API',
       link: { 
         type: 'doc', 
-        id: 'petstore/swagger-petstore' // Points to your "Humanized" Intro
+        id: 'petstore/swagger-petstore'
       },
       items: [
         {
