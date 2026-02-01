@@ -112,7 +112,7 @@ const config = {
             },
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/your-profile', 
+              href: 'https://www.linkedin.com/in/rainerbrieger/', 
             },
           ],
         },
