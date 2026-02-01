@@ -27,7 +27,7 @@ A deep dive into documenting a complex, logic-driven CMS schema for a municipal 
 **The Project:**
 A full-stack application built with a **"Merchant-First"** mindset. This project showcases my ability to document the interaction between a React frontend and a secure Node.js backend. It features a deep dive into stateful session-based authentication using `HttpOnly` cookies and strict data isolation.
 
-[**View Inventory Overview**](/docs/inventory-app/inventory-overview) | [**Read the Auth Deep Dive**](/docs/inventory-app/auth-deep-dive)
+[**View Inventory Overview**](/docs/inventory-app/overview) | [**Read the Auth Deep Dive**](/docs/inventory-app/auth-deep-dive)
 
 
 ---
