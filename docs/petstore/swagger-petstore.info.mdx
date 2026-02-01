@@ -20,16 +20,20 @@ import Export from "@theme/ApiExplorer/Export";
 >
 </span>
 
-<Heading
-  as={"h1"}
-  className={"openapi__heading"}
-  children={"Swagger Petstore"}
->
-</Heading>
 
+## Petstore API: Overview
 
+Welcome to the Petstore API. This documentation serves as a live demonstration of my ability to transform a complex OpenAPI 3.0 specification into an interactive, user-friendly developer portal.
 
-This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
+### The Objective
+Managing a high-volume pet inventory requires clear and predictable data relationships. This API allows developers to:
+* **Manage Lifecycle:** Track pets from initial intake to final adoption.
+* **Handle Logic:** Use conditional status toggles (Available, Pending, Sold) that drive frontend UI components.
+* **Secure Data:** Implement multi-tier authentication using both API Keys and OAuth 2.0.
+
+### Getting Started
+To begin testing, select an endpoint from the sidebar. You can use the **"Try It Out"** feature directly in the browser. 
+> **Tip:** For authorized endpoints, use the `special-key` to bypass basic filters.
 
 <div
   style={{"marginBottom":"2rem"}}
