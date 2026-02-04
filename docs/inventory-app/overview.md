@@ -73,8 +73,6 @@ import TabItem from '@theme/TabItem';
     "id": 104,
     "name": "Skate Guards - Blue",
     "quantity": 3,
-    "status": "low-stock",
-    "last_updated": "2026-02-03T18:15:00Z"
   }
   ```
 
