@@ -15,7 +15,8 @@ module.exports = {
       type: 'category',
       label: 'Inventory System',
       items: [
-        'inventory-app/overview',       
+        'inventory-app/overview',
+        'inventory-app/merchant-user-guide',     
         'inventory-app/auth-deep-dive',
       ],
     },
@@ -34,7 +35,7 @@ module.exports = {
             {
               type: 'doc',
               id: 'petstore/add-pet',
-              label: 'Add New Pet' // Short, punchy label
+              label: 'Add New Pet'
             },
             {
               type: 'doc',
@@ -55,7 +56,7 @@ module.exports = {
             {
               type: 'doc',
               id: 'petstore/get-inventory',
-              label: 'View Inventory' // Clean and action-oriented
+              label: 'View Inventory'
             },
             {
               type: 'doc',
@@ -74,6 +75,14 @@ module.exports = {
             },
           ],
         },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'About This Portal',
+      items: [
+        'style-guide',
+        'automated-pipeline',
       ],
     },
   ],

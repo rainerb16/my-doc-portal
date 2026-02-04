@@ -60,6 +60,35 @@ import TabItem from '@theme/TabItem';
   | `GET` | `/items` | List all inventory items owned by the current user |
   | `POST` | `/items` | Create a new item record |
 
+  
+  <details>
+  
+  <summary><b>📦 View Sample JSON Response & Schema</b></summary>
+
+  The API returns a JSON object (or an array of objects) representing the current state of a merchant's stock.
+
+  **Sample Response:**
+  ```json
+  {
+    "id": 104,
+    "name": "Skate Guards - Blue",
+    "quantity": 3,
+    "status": "low-stock",
+    "last_updated": "2026-02-03T18:15:00Z"
+  }
+  ```
+
+    **Field Definitions:**
+
+    `id`: Unique integer identifier for the item.
+    `name`: The display name of the product.
+    `quantity`: Current stock count in the database.
+    `status`: A dynamic string (in-stock, low-stock, out-of-stock) calculated based on quantity.
+    `last_updated`: An ISO 8601 timestamp representing the last database modification.
+
+  </details>
+
+
   ### Manual Testing (CLI)
   You can verify the authentication flow and data scoping using `curl`:
 
